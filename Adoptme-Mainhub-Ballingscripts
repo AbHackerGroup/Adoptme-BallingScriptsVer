@@ -15,14 +15,6 @@ Time = <number> - The duration of the notfication.
 ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AbHackerGroup/BallingScriptsAdoptMe/main/Adoptme-MainHub-%5BBallingScripts%5D"))()
 --[[
-
-
---[[
-Title = <string> - The title of the notification.
-Content = <string> - The content of the notification.
-Image = <string> - The icon of the notification.
-Time = <number> - The duration of the notfication.
-]]
 Name = <string> - The name of the UI.
 HidePremium = <bool> - Whether or not the user details shows Premium status or not.
 SaveConfig = <bool> - Toggles the config saving in the UI.
