@@ -3,8 +3,8 @@ local Window = OrionLib:MakeWindow({Name = "Balling Scripts | Adopt Me Hub [3.5]
 OrionLib:MakeNotification({
 	Name = "Loading Script...",
 	Content = "Script will be loaded in 25-30 seconds",
-	Image = "rbxassetid://4483345998",
-	Time = 45
+	Image = "rbxassetid://17849295859",
+	Time = 30
 })
 
 --[[
@@ -31,7 +31,19 @@ local Tab = Window:MakeTab({
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
+OrionLib:MakeNotification({
+	Name = "Script Successfully Loaded",
+	Content = "Loading Has been successful ",
+	Image = "rbxassetid://17849312358",
+	Time = 25
+})
 
+--[[
+Title = <string> - The title of the notification.
+Content = <string> - The content of the notification.
+Image = <string> - The icon of the notification.
+Time = <number> - The duration of the notfication.
+]]
 --[[
 Name = <string> - The name of the tab.
 Icon = <string> - The icon of the tab.
@@ -76,7 +88,7 @@ Time = <number> - The duration of the notfication.
   	end    
 })
 Tab:AddParagraph("READ❗","The Feature - Dupe Eggs - Will Not Work if ur in a private server")
-Tab:AddParagraph("Script Successfully Loaded❗","Thank u for waiting")
+Tab:AddParagraph("Script Successfully Loaded❗","Enjoy The Script All By BallingScriptsYT")
 
 local Tab = Window:MakeTab({
     Name = "Trade Scam🙈",
@@ -132,7 +144,7 @@ Callback = <function> - The function of the button.
 
 
 
-Tab:AddParagraph("Script Successfully Loaded❗","Thank u for waiting")
+Tab:AddParagraph("Script Successfully Loaded❗","Enjoy The Script All By BallingScriptsYT")
 
 local Tab = Window:MakeTab({
     Name = "AutoFarm 🚜",
@@ -158,7 +170,7 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
-Tab:AddParagraph("Script Successfully Loaded❗","Thank u for waiting") 
+Tab:AddParagraph("Script Successfully Loaded❗","Enjoy The Script All By BallingScriptsYT") 
 
 local Tab = Window:MakeTab({
     Name = "Dupe Pets 🔨",
@@ -210,7 +222,7 @@ Time = <number> - The duration of the notfication.
   	end    
 })
 Tab:AddParagraph("READ❗","The Feature - Dupe Eggs - Will Not Work if ur in a private server")
-Tab:AddParagraph("Script Successfully Loaded❗","Thank u for waiting")
+Tab:AddParagraph("Script Successfully Loaded❗","Enjoy The Script All By BallingScriptsYT")
 
 --[[
 Name = <string> - The name of the button.
@@ -241,7 +253,7 @@ Tab:AddButton({
       end    
 })
 
-Tab:AddParagraph("Script Successfully Loaded❗","Thank u for waiting")
+Tab:AddParagraph("Script Successfully Loaded❗","Enjoy The Script All By BallingScriptsYT")
 
 --[[
 Name = <string> - The name of the button.
@@ -297,7 +309,7 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
-Tab:AddParagraph("Script Successfully Loaded❗","Thank u for waiting")
+Tab:AddParagraph("Script Successfully Loaded❗","Enjoy The Script All By BallingScriptsYT")
 
 
 local Tab = Window:MakeTab({
@@ -324,5 +336,5 @@ Tab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
-Tab:AddParagraph("CREDITS❗","Made By BallingScripts")
-Tab:AddParagraph("Script Successfully Loaded❗","Thank u for waiting")
+Tab:AddParagraph("CREDITS❗","Coded And Made All By BallingScriptsYT")
+Tab:AddParagraph("Script Successfully Loaded❗","Enjoy The Script All By BallingScriptsYT")
