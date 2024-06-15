@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Balling Scripts | Adopt Me Hub [3.5]❗", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Loading Script...",
-	Content = "Script will be loaded in 45-50 seconds",
+	Content = "Script will be loaded in 25-30 seconds",
 	Image = "rbxassetid://17849295859",
 	Time = 50
 })
@@ -32,7 +32,7 @@ OrionLib:MakeNotification({
 	Name = "Script Successfully Loaded",
 	Content = "Loading Has been successful ",
 	Image = "rbxassetid://17849312358",
-	Time = 25
+	Time = 30
 })
 
 --[[
@@ -71,9 +71,9 @@ Tab:AddButton({
 	Callback = function()
 OrionLib:MakeNotification({
 	Name = "Duping Eggs....",
-	Content = "Duping is in process..[Takes around 1-2 minute]",
+	Content = "Duping is in process..[Takes around 4-5 minutes] DONT LEAVE GAME ❗",
 	Image = "rbxassetid://4483345998",
-	Time = 50
+	Time = 120
 })
 
 --[[
@@ -205,9 +205,9 @@ Tab:AddButton({
 	Callback = function()
 	OrionLib:MakeNotification({
 	Name = "Duping Pets...",
-	Content = "Duping in Process..[Takes Around 1-2 minutes]",
+	Content = "Duping in Process..[Takes Around 4-5 minutes] DONT LEAVE GAME❗",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 120
 })
 
 --[[
@@ -310,7 +310,7 @@ Tab:AddParagraph("Script Successfully Loaded❗","Enjoy The Script All By Ballin
 
 
 local Tab = Window:MakeTab({
-    Name = "INFO | DISCORD🥤 ",
+    Name = "Info | Discord",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
