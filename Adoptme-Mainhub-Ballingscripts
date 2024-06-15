@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Balling Scripts | Adopt Me Hub [3.5]❗", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Loading Script...",
-	Content = "Script will be loaded in 25-30 seconds",
+	Content = "Script will be loaded in 25-30 seconds Its not gonna load exactly 25-30 seconds it can be more or less",
 	Image = "rbxassetid://17849295859",
 	Time = 50
 })
