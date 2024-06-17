@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Balling Scripts | Adopt Me Hub [3.5]❗", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Loading Script...",
-	Content = "Script will be loaded in 25-30 seconds Its not gonna load exactly 25-30 seconds it can be more or less",
+	Content = "Script will be loaded in 25-30 seconds | Note - Seconds Shown Here are not the exact loading time❗",
 	Image = "rbxassetid://17849295859",
 	Time = 50
 })
@@ -71,7 +71,7 @@ Tab:AddButton({
 	Callback = function()
 OrionLib:MakeNotification({
 	Name = "Duping Eggs....",
-	Content = "Duping is in process..[Takes around 4-5 minutes] DONT LEAVE GAME ❗",
+	Content = "Duping is in process..[Takes around 4-5 minutes] DONT THE LEAVE GAME ❗",
 	Image = "rbxassetid://4483345998",
 	Time = 120
 })
@@ -333,5 +333,6 @@ Tab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+Tab:AddParagraph("NOTE❗","Some Features May Not Work If ur in a private server")
 Tab:AddParagraph("CREDITS❗","Coded And Made All By BallingScriptsYT")
 Tab:AddParagraph("Script Successfully Loaded❗","Enjoy The Script All By BallingScriptsYT")
